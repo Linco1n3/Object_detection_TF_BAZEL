@@ -1,0 +1,306 @@
+PS D:\tensorflow> bazel-bin\tensorflow\cc\workspace\object_detection.exe
+2019-08-19 16:01:53.338122: E tensorflow/cc/workspace/example.cpp:252] graph_path:tensorflow/cc/workspace/Data/8_2_18_Inception.pb
+2019-08-19 16:01:53.379326: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+2019-08-19 16:01:53.480747: E tensorflow/cc/workspace/example.cpp:286] image shape:[1,720,1280,3],len:1,tensor type:4
+2019-08-19 16:01:56.276107: E tensorflow/cc/workspace/example.cpp:309] num_detections:100,[1,100,4]
+2019-08-19 16:01:56.278754: E tensorflow/cc/workspace/example.cpp:315] 0,score:0.999169,class:1,box:,0.303808,0.334361,0.574482,0.493921
+{
+        "0" :
+        {
+                "bottom_right" :
+                [
+                        632,
+                        413
+                ],
+                "class" : 1,
+                "score" : 0.99916946887969971,
+                "top_left" :
+                [
+                        427,
+                        218
+                ]
+        }
+}
+2019-08-19 16:01:56.284070: E tensorflow/cc/workspace/example.cpp:315] 1,score:0.998015,class:2,box:,0.559321,0.283299,0.779167,0.427399
+{
+        "1" :
+        {
+                "bottom_right" :
+                [
+                        547,
+                        561
+                ],
+                "class" : 2,
+                "score" : 0.99801474809646606,
+                "top_left" :
+                [
+                        362,
+                        402
+                ]
+        }
+}
+2019-08-19 16:01:56.289333: E tensorflow/cc/workspace/example.cpp:315] 2,score:0.987043,class:3,box:,0.518451,0.499137,0.700108,0.637079
+{
+        "2" :
+        {
+                "bottom_right" :
+                [
+                        815,
+                        504
+                ],
+                "class" : 3,
+                "score" : 0.98704338073730469,
+                "top_left" :
+                [
+                        638,
+                        373
+                ]
+        }
+}
+2019-08-19 16:01:56.295300: E tensorflow/cc/workspace/example.cpp:315] 3,score:0.969691,class:2,box:,0.326063,0.547904,0.443554,0.619742
+{
+        "3" :
+        {
+                "bottom_right" :
+                [
+                        793,
+                        319
+                ],
+                "class" : 2,
+                "score" : 0.96969091892242432,
+                "top_left" :
+                [
+                        701,
+                        234
+                ]
+        }
+}
+time interval of image0: 2.828
+2019-08-19 16:01:56.308330: E tensorflow/cc/workspace/example.cpp:286] image shape:[1,720,1280,3],len:1,tensor type:4
+2019-08-19 16:01:56.395335: E tensorflow/cc/workspace/example.cpp:309] num_detections:100,[1,100,4]
+2019-08-19 16:01:56.397323: E tensorflow/cc/workspace/example.cpp:315] 0,score:0.997602,class:1,box:,0.311146,0.323098,0.627305,0.517611
+{
+        "0" :
+        {
+                "bottom_right" :
+                [
+                        662,
+                        451
+                ],
+                "class" : 1,
+                "score" : 0.99760234355926514,
+                "top_left" :
+                [
+                        413,
+                        224
+                ]
+        }
+}
+2019-08-19 16:01:56.401335: E tensorflow/cc/workspace/example.cpp:315] 1,score:0.994321,class:3,box:,0.37518,0.498053,0.583676,0.632816
+{
+        "1" :
+        {
+                "bottom_right" :
+                [
+                        810,
+                        420
+                ],
+                "class" : 3,
+                "score" : 0.99432146549224854,
+                "top_left" :
+                [
+                        637,
+                        270
+                ]
+        }
+}
+2019-08-19 16:01:56.405317: E tensorflow/cc/workspace/example.cpp:315] 2,score:0.71074,class:2,box:,0.456543,0.309944,0.718942,0.391923
+{
+        "2" :
+        {
+                "bottom_right" :
+                [
+                        501,
+                        517
+                ],
+                "class" : 2,
+                "score" : 0.71074014902114868,
+                "top_left" :
+                [
+                        396,
+                        328
+                ]
+        }
+}
+2019-08-19 16:01:56.409883: E tensorflow/cc/workspace/example.cpp:315] 3,score:0.579449,class:3,box:,0.648792,0.477861,0.742111,0.632255
+{
+        "3" :
+        {
+                "bottom_right" :
+                [
+                        809,
+                        534
+                ],
+                "class" : 3,
+                "score" : 0.57944917678833008,
+                "top_left" :
+                [
+                        611,
+                        467
+                ]
+        }
+}
+time interval of image1: 0.112
+2019-08-19 16:01:56.420966: E tensorflow/cc/workspace/example.cpp:286] image shape:[1,720,1280,3],len:1,tensor type:4
+2019-08-19 16:01:56.506197: E tensorflow/cc/workspace/example.cpp:309] num_detections:100,[1,100,4]
+2019-08-19 16:01:56.508192: E tensorflow/cc/workspace/example.cpp:315] 0,score:0.997988,class:1,box:,0.419794,0.413897,0.730207,0.605799
+{
+        "0" :
+        {
+                "bottom_right" :
+                [
+                        775,
+                        525
+                ],
+                "class" : 1,
+                "score" : 0.99798762798309326,
+                "top_left" :
+                [
+                        529,
+                        302
+                ]
+        }
+}
+2019-08-19 16:01:56.512212: E tensorflow/cc/workspace/example.cpp:315] 1,score:0.997348,class:3,box:,0.312498,0.328719,0.608462,0.464733
+{
+        "1" :
+        {
+                "bottom_right" :
+                [
+                        594,
+                        438
+                ],
+                "class" : 3,
+                "score" : 0.99734771251678467,
+                "top_left" :
+                [
+                        420,
+                        224
+                ]
+        }
+}
+2019-08-19 16:01:56.516805: E tensorflow/cc/workspace/example.cpp:315] 2,score:0.698742,class:2,box:,0.312099,0.568099,0.631727,0.637861
+{
+        "2" :
+        {
+                "bottom_right" :
+                [
+                        816,
+                        454
+                ],
+                "class" : 2,
+                "score" : 0.69874227046966553,
+                "top_left" :
+                [
+                        727,
+                        224
+                ]
+        }
+}
+time interval of image2: 0.106
+2019-08-19 16:01:56.527800: E tensorflow/cc/workspace/example.cpp:286] image shape:[1,720,1280,3],len:1,tensor type:4
+2019-08-19 16:01:56.613558: E tensorflow/cc/workspace/example.cpp:309] num_detections:100,[1,100,4]
+2019-08-19 16:01:56.615551: E tensorflow/cc/workspace/example.cpp:315] 0,score:0.964597,class:2,box:,0.467847,0.326978,0.743055,0.389171
+{
+        "0" :
+        {
+                "bottom_right" :
+                [
+                        498,
+                        534
+                ],
+                "class" : 2,
+                "score" : 0.96459674835205078,
+                "top_left" :
+                [
+                        418,
+                        336
+                ]
+        }
+}
+2019-08-19 16:01:56.619560: E tensorflow/cc/workspace/example.cpp:315] 1,score:0.93793,class:3,box:,0.595566,0.365363,0.718206,0.577297
+{
+        "1" :
+        {
+                "bottom_right" :
+                [
+                        738,
+                        517
+                ],
+                "class" : 3,
+                "score" : 0.93793034553527832,
+                "top_left" :
+                [
+                        467,
+                        428
+                ]
+        }
+}
+2019-08-19 16:01:56.623535: E tensorflow/cc/workspace/example.cpp:315] 2,score:0.600131,class:3,box:,0.286913,0.493731,0.375723,0.627743
+{
+        "2" :
+        {
+                "bottom_right" :
+                [
+                        803,
+                        270
+                ],
+                "class" : 3,
+                "score" : 0.60013085603713989,
+                "top_left" :
+                [
+                        631,
+                        206
+                ]
+        }
+}
+time interval of image3: 0.107
+2019-08-19 16:01:56.635108: E tensorflow/cc/workspace/example.cpp:286] image shape:[1,720,1280,3],len:1,tensor type:4
+2019-08-19 16:01:56.720839: E tensorflow/cc/workspace/example.cpp:309] num_detections:100,[1,100,4]
+2019-08-19 16:01:56.722840: E tensorflow/cc/workspace/example.cpp:315] 0,score:0.995106,class:2,box:,0.321133,0.440994,0.52448,0.584668
+{
+        "0" :
+        {
+                "bottom_right" :
+                [
+                        748,
+                        377
+                ],
+                "class" : 2,
+                "score" : 0.99510645866394043,
+                "top_left" :
+                [
+                        564,
+                        231
+                ]
+        }
+}
+2019-08-19 16:01:56.726861: E tensorflow/cc/workspace/example.cpp:315] 1,score:0.783,class:3,box:,0.332678,0.3075,0.74996,0.388663
+{
+        "1" :
+        {
+                "bottom_right" :
+                [
+                        497,
+                        539
+                ],
+                "class" : 3,
+                "score" : 0.78299963474273682,
+                "top_left" :
+                [
+                        393,
+                        239
+                ]
+        }
+}
+time interval of image4: 0.102
